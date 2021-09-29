@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road 2 Range</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="top">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container justify-content-end">
+                    <div class="info">
+                        <a href=""><i class=" fas fa-envelope-square"></i>info@road2range.com</a>
+                        <a href=""><i class=" fas fa-comments"></i>Live Chat</a>
+                    </div>
+                    <div class="registration d-flex -justify-content-between">
+                        <a href="">
+                            <p>Login</p>
+                        </a>
+                        <a href="">
+                            <p>Register</p>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="middle">
+            <div class="middle container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href=""> <img src="assets/images/logo-1.png" alt=""></a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end link-item" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto ">
+                            <a class="nav-link" href=""><i class="fas fa-home"></i>HOME</a>
+                            <a class="nav-link" href=""><i class="fas fa-boxes"></i>PRODUCTS</a>
+                            <a class="nav-link" href=""><i class="fas fa-question-circle"></i>FAQ'S</a>
+                            <a class="nav-link" href=""><i class="fas fa-info-circle"></i>ABOUT US</a>
+                            <a class="nav-link" style="margin-right:25px;" href="contact"><i
+                                    class="fas fa-envelope-open-text"></i>CONTACT</a>
+                            <a class="nav-link" href=""><i class="fas fa-shopping-bag"></i></a>
+                            <a class="nav-link" href=""><i class="fas fa-heart"></i></a>
+                            <p class="nav-link">$</p>
+                            <p class="nav-link">0</p>
+
+                        </div>
+                </nav>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <ul class="d-flex">
+                    <li style="border-left: none;">
+                        <a href=""><i class="fas fa-coins"></i>
+                            <p>Best price guaranteed</p>
+                        </a>
+                    </li>
+                    <li style="width: 260px;">
+                        <a href=""><i class="fas fa-lock"></i>
+                            <p>Safe &amp; Secure Payment options</p>
+                        </a>
+                    </li>
+                    <li style="width: 265px;">
+                        <a href=""><i class="fas fa-star-of-david"></i>
+                            <p>Superior Warrant</p>
+                        </a>
+                    </li>
+                    <li style="width: 320px; padding: 0 5px; ">
+                        <a href=""><i class="fas fa-truck"></i>
+                            <p>Fast Aus wide Delivery Aus owned &amp; operated</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fas fa-user"></i>
+                            <p>Online customer Assistance</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="slider-section">
+        <div class="container">
+            <div class="slider-content">
+                <div class="logo-img">
+                    <img src="assets/images/logo-1.png" alt="">
+                </div>
+                <div class="heading">
+                    <h1>Select Your Vehicle</h1>
+                </div>
+                <div class="description">
+                    <p>Road To Range was started with the end goal in mind - To offer great products at the most
+                        affordable prices
+                        and forge a strong reputation as a leader in the 4WD &amp; vehicle accessory industry.</p>
+                </div>
+            </div>
+
+            <div class="text-center filter-area">
+                <div class="filter-area-title">
+                    <p>To view the towbar kits &amp; accessories specific to your vehicle, follow the simple steps
+                        below.</p>
+                </div>
+                <div>
+                    <!-- Filters -->
+                    <form action="http://phpstack-470202-1621315.cloudwaysapps.com/products" method="get">
+                        <div class="form-group">
+                            <select name="category_id" class="form-control" id="exampleFormControlSelect1">
+                                <option selected="" disabled="">Categories</option>
+                                <option value="1">Engine</option>
+                                <option value="2">Filter</option>
+                                <option value="3">Bumper</option>
+                                <option value="4">Suspensions</option>
+                                <option value="5">Headlights</option>
+                                <option value="6">Speakers</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="vehicle_make_id" class="form-control" id="exampleFormControlSelect1">
+                                <option selected="" disabled="">Vehicle Make...</option>
+                                <option value="2">Honda</option>
+                                <option value="3">Hyundai</option>
+                                <option value="4">Nissan</option>
+                                <option value="1">Toyota</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="vehicle_model_id" class="form-control" id="exampleFormControlSelect1">
+                                <option selected="" disabled="">Vehicle Model...</option>
+                                <option value="7">Accord</option>
+                                <option value="4">Allex</option>
+                                <option value="3">Allion</option>
+                                <option value="6">Avalon</option>
+                                <option value="1">Axio</option>
+                                <option value="10">Azera</option>
+                                <option value="5">Camry</option>
+                                <option value="15">Cima</option>
+                                <option value="2">Civic</option>
+                                <option value="9">HR-V</option>
+                                <option value="13">Leaf</option>
+                                <option value="12">Nexo</option>
+                                <option value="8">Pilot</option>
+                                <option value="16">Terra</option>
+                                <option value="14">Tiida</option>
+                                <option value="11">Veloster</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="body_shape_id" class="form-control" id="exampleFormControlSelect1">
+                                <option selected="" disabled="">Vehicle Body Shape</option>
+                                <option value="2">Hatchback</option>
+                                <option value="1">Sedan</option>
+                                <option value="3">Suv</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="vehicle_year_id" class="form-control" id="exampleFormControlSelect1">
+                                <option selected="" disabled="">Vehicle Year</option>
+                                <option value="1">2010</option>
+                                <option value="2">2011</option>
+                                <option value="3">2012</option>
+                                <option value="4">2013</option>
+                                <option value="5">2014</option>
+                                <option value="6">2015</option>
+                                <option value="7">2016</option>
+                                <option value="8">2017</option>
+                                <option value="9">2018</option>
+                                <option value="10">2019</option>
+                                <option value="11">2020</option>
+                            </select>
+                        </div>
+                        <div style="margin: 0;" class="form-group">
+                            <button type="submit" class="btn btn-lg btn-block">SEARCH NOW</button>
+                        </div>
+                    </form>
+                    <!--/ Filters  -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--product-->
+    <section class="featured-item-section">
+        <div class="shop container">
+            <div class="heading text-center">
+                <h1>Shop By Category</h1>
+
+                <hr>
+            </div>
+            <div>
+            </div>
+            <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <a href="">
+                                <div class="card-bg-img" style="background-image: url(assets/images/engine.png);">
+                                </div>
+                                <div class="footer-button" href="#">
+                                    Engine
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <a href="">
+                                <div class="card-bg-img" style="background-image: url(assets/images/filter.png)">
+                                </div>
+                                <div class="footer-button" href="#">
+                                    Filter
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <a href="">
+                                <div class="card-bg-img" style="background-image: url(assets/images/bumper.png)">
+                                </div>
+                                <div class="footer-button" href="#">
+                                    Bumper
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <a href="">
+                                <div class="card-bg-img" style="background-image: url(assets/images/suspension.png)">
+                                </div>
+                                <div class="footer-button" href="#">
+                                    Suspension
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <a href="">
+                                <div class="card-bg-img" style="background-image: url(assets/images/headlight.png)">
+                                </div>
+                                <div class="footer-button" href="#">
+                                    Headlights
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <a href="">
+                                <div class="card-bg-img" style="background-image: url(assets/images/speaker.png)">
+                                </div>
+                                <div class="footer-button" href="#">
+                                    Speakers
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--About-->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h1>About Road 2 Range</h1>
+                <hr class="about-hr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                    <br>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="brands" id="brands">
+        <div class="container">
+            <div class="text-center">
+                <h1>Our Brands</h1>
+                <hr class="brands-hr">
+                <p class="brands-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt.</p>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/images/brands-1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands-2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands-3.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands-4.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands-5.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands-1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands-2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands-3.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands-4.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands-5.png" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section class="blog-section" id="blog-section">
+        <div class="container">
+            <div class="text-center">
+                <h1>Recent Blog</h1>
+                <hr class="blog-section-hr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="http://phpstack-470202-1621315.cloudwaysapps.com/storage/blog_images/5fca2b65d33ca1607084901.jpg"
+                            class="card-2-img" alt="...">
+                        <p class="p-img-2">Post By David Smith</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Buy Car Accessories Online</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. ...</p>
+                            <a href="#" class="btn btn-danger">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="http://phpstack-470202-1621315.cloudwaysapps.com/storage/blog_images/5fca2b5b1538a1607084891.jpg"
+                            class="card-2-img" alt="...">
+                        <p class="p-img-2">Post By David Smith</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Buy Car Accessories Online</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. ...</p>
+                            <a href="#" class="btn btn-danger">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="http://phpstack-470202-1621315.cloudwaysapps.com/storage/blog_images/5fca2b4c5b6da1607084876.jpg"
+                            class="card-2-img" alt="...">
+                        <p class="p-img-2">Post By David Smith</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Buy Car Accessories Online</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. ...</p>
+                            <a href="#" class="btn btn-danger">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact-section">
+        <div class="container">
+            <div class="text-center">
+                <h1>Contact Us</h1>
+                <hr class="contact-section-hr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+
+                <div class="contact-form">
+                    <form action="" method="">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="input-icons">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" name="" value="" placeholder="First Name...">
+                                </div>
+                                <div class="input-icons">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" name="" value="" placeholder="Last Name...">
+                                </div>
+                                <div class="input-icons">
+                                    <i class="fas fa-envelope-square"></i>
+                                    <input type="email" name="" value="" placeholder="Your Email...">
+                                </div>
+                                <div class="input-icons">
+                                    <i class="fas fa-phone-square-alt"></i>
+                                    <input type="number" name="" value="" placeholder="Your Phone...">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 text-left">
+                                <div class="input-icons">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <textarea rows="8" placeholder="How we can help you?"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-lg">SUBMIT NOW<i
+                                        class="far fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-6 ">
+                    <h2>Our Policies</h2>
+                    <hr class="footer-hr">
+                    <ul class="p-0">
+                        <a href="">
+                            <li>Term of use</li>
+                        </a>
+                        <a href="">
+                            <li>Disclaimer</li>
+                        </a>
+                        <a href="">
+                            <li>shipping</li>
+                        </a>
+                        <a href="">
+                            <li>Refund</li>
+                        </a>
+                        <a href="">
+                            <li>Privacy</li>
+                        </a>
+                        <a href="">
+                            <li>Warranty</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <h2>Newspaper</h2>
+                    <hr class="footer-hr">
+                    <p>Subscribe to our email list to get amazing offer/deals and stay updated on latest events!</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Email Address"
+                            aria-label="Example text with button addon" aria-describedby="button-addon1">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i
+                                class="fas fa-sign-in-alt"></i></button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <h2>Latest News</h2>
+                    <hr class="footer-hr">
+                    <div class="row">
+                        <div class="col-sm-4 mb-4">
+                            <img src="assets/images/car-1.png" alt="" width="100px">
+                        </div>
+                        <div class="col-sm-8 ">
+                            <a class="car-a" href="">Buy Car Accessories Online March 2, 2016</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4  ">
+                            <img src="assets/images/car-2.png" alt="" width="100px">
+                        </div>
+                        <div class="col-sm-8">
+                            <a href="">Buy Led Driving Light Online
+                                March 2, 2016</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h2>Connect with us</h2>
+                    <hr class="footer-hr">
+                    <button class="footer-button-1" type="button"><i class=" fas fa-comments">Live Chat</i></button><br>
+                    <button class="footer-button-2"><i class=" fas fa-envelope-square">Send Email</i></button>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="footer-bottom" id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <p>Copyright © 2020 Road To Range . All Right Reserved.</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img class="footer-img" src="assets/images/mastercard.png" alt="">
+                    <img class="footer-img" src="assets/images/paypal.png" alt="">
+                    <img class="footer-img" src="assets/images/visa.png" alt="">
+                    <img class="footer-img" src="assets/images/e-card.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        breakpoints: {
+
+            991: {
+                slidesPerView: 5,
+                spaceBetween: 20,
+            },
+            720: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            360:{
+                slidesPerView: 2,
+                spaceBetween: 20,
+            }
+        }
+    });
+</script>
+
+</html>

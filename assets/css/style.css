@@ -1,0 +1,528 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header .top nav{
+    background-color: #313232;
+    height: 52px;
+    padding: 0 16px;
+}
+header .top a{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 36px;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif ;
+}
+header .top a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+header .top a i{
+    margin: 5px 10px;
+    font-weight: bold;
+}
+header .top .registration{
+    padding-left: 25px;
+}
+
+header .top .registration p{
+    margin: 0;
+}
+
+header .top .registration a:first-child p::after{
+    content: "|";
+    margin: auto 5px;
+}
+ header .middle .navbar{
+     height: 120px;
+     margin: auto;
+ }
+ header .middle .navbar-brand img{
+    position: relative;
+    bottom: 24px;
+    left: 50px;
+    margin: 0;
+}
+header .middle nav .nav-link{
+    color: #838383 !important;
+    padding-left: 20px;
+  
+}
+header .middle .navbar-nav  i{
+    margin: 0 7px;
+    
+    position: relative;
+}
+header .middle nav .nav-link:hover{
+    text-decoration: underline;
+}
+header .middle .navbar .registration a:hover{
+    text-decoration: underline #838383;
+}
+header .fa-shopping-bag{
+    font-size: 30px;
+}
+header .fa-heart{
+    font-size: 30px;
+}
+header .bottom{
+    background-color: #f20111;
+    border-bottom: 1px solid #fff;
+    
+}
+header .bottom .container{
+    margin: auto;
+    padding: 0;
+}
+header .bottom ul{
+    padding-left: 0;
+    margin-bottom: 0;   
+}
+header .bottom ul li{
+    list-style-type: none;
+    font-size: 16px;
+    width: 20%;
+    color: #ffffff;
+     padding: 5px 0; 
+    display: flex;
+    text-align: left;
+     margin: auto; 
+}
+header .bottom ul li::before{
+    content: "";
+    display: block;
+    width: 2px;
+    background-color: #ce010e;
+    height: 100px;
+    
+}
+header .bottom ul li:first-child::before{
+    content: none;
+}
+header .bottom ul li a{
+    color: #ffffff;
+    margin: auto 30px;
+    margin-right: 0!important;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+header .bottom ul li a p{
+    margin: auto;
+    line-height: 20px;
+}
+
+header .bottom ul li a p:hover{
+    text-decoration: underline;
+}
+
+header .bottom ul li a i{
+     margin-right: 15px;
+    margin-left: 50px; 
+    font-size: 38px;
+    margin: auto 10px auto 0;
+    height: 30px; 
+}
+.heading{
+    font-family:'GT Walsheim Pro Medium';
+    color: #000000;
+}
+
+.slider-section{
+    background-image: url(http://phpstack-470202-1621315.cloudwaysapps.com/images/bg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider-section .container{
+    height: 780px;
+    position: relative;
+}
+
+.slider-section .slider-content{
+    position: absolute;
+    text-align: left;
+    left: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 50%;
+}
+
+.slider-section .slider-content .heading{
+    margin: 30px 0;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.slider-section .slider-content .heading h1{
+    margin: 0;
+}
+
+.slider-section .slider-content .description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.filter-margin-bottom{
+    margin-bottom:100px;
+}
+
+.slider-section .filter-area{
+    width: 455px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.slider-section .filter-area .filter-area-title{
+    background-color: #f20111;
+   padding: 5px;
+    position: relative;
+    border: none;
+}
+.slider-section .filter-area .filter-area-title p{
+    padding-top: 15px;
+    font-size: 18px;
+    position: relative;
+    color: #fff;
+}
+
+.slider-section .filter-area form{
+    margin-top: 25px;
+}
+
+.slider-section .filter-area form .form-group{
+    margin: 0 33px 15px 33px;
+}
+
+.slider-section .filter-area form .form-group select{
+    height: 52px;
+    padding-left: 25px;
+    color: #868686;
+}
+
+.slider-section .filter-area form button{
+    background-color: #ed7c18;
+    color: #fff;
+    width: 100%;
+    border: none;
+}
+.featured-item-section{
+    padding: 40px 0;
+}
+.featured-item-section hr , .about .about-hr , .brands .brands-hr , .blog-section hr , .contact-section hr{
+    border: 2px solid #d32229;
+    width: 75px;
+    margin: 20px auto;
+}
+
+.featured-item-section .shop .description p{
+    font-size: 1.0625rem;
+    width: 775px;
+    color: #868686;
+    margin: auto;
+}
+.featured-item-section .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(190, 3, 3, 0.2);
+    transition: 0.3s;
+    padding-top:30px ;
+    height: 400px;
+    width: 100%;
+}
+.featured-item-section .card .card-bg-img {
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 220px;
+    background-size: contain;
+    margin: auto;
+}
+
+/* On mouse-over, add a deeper shadow */
+.featured-item-section .card:hover {
+    border-color: red;
+}
+.featured-item-section p{
+    padding-bottom: 40px;
+}
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.featured-item-section .card .footer-button {
+    width: 100%;
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    position: absolute;
+    bottom: 0;
+}
+
+.featured-item-section .card:hover .footer-button {
+    background-color: red;
+    color: #fff;
+}
+#about{
+    padding: 60px 0;
+    background-color: #fafafa;
+}
+#brands{
+    padding: 60px 0;
+}
+.brands .brands-p{
+    padding-bottom: 40px;
+}
+.swiper-slide{
+    width: 100%;
+    border: 1;
+   padding: 10px 5px;
+}
+#blog-section{
+    padding: 60px 0;
+    background-color: #fafafa;
+}
+.blog-section .card{
+    position: relative;
+}
+
+.blog-section .p-img-2 {
+    background-color: red;
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin: 0;
+    color: #fff;
+    transform: translate(-50% , -65%);
+    padding: 5px 20px;
+}
+
+.card img {
+    height: 300px;
+    width: 100%;
+}
+.contact-section{
+    padding: 60px 0;
+}
+.contact-section .contact-form{
+    margin-top: 35px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-section .contact-form .input-icons {
+    position: relative;
+}
+
+.contact-section .contact-form .input-icons input{
+    padding: 0;
+    padding-top: 2px;
+    padding-left: 40px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #3b3b3b;
+}
+
+.contact-section .contact-form .input-icons textarea{
+    height: 190px;
+    padding-left: 42px;
+    padding-top: 13px;
+}
+
+.contact-section .contact-form .input-icons textarea , .contact-section .contact-form button{
+    width: 100%;
+}
+
+.contact-section .contact-form button{
+    background-color: #ed7c18;
+    color: #fff;
+    height: 50px;
+    margin-top: 13px;
+}
+
+.contact-section .contact-form button i{
+    padding-left: 10px;
+}
+
+.contact-section .contact-form .input-icons i{
+    color: #999999;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    padding-left: 20px;
+}
+#footer{
+    background-color: #0f0f0f;
+    padding: 60px 0;
+}
+.footer h2{
+    color: #fff;
+    padding-top: 40px;
+}
+.footer-hr{
+    border: 2px solid #d32229;
+    width: 75px;
+    margin-top: 20px;
+    margin-bottom: 25px
+}
+.footer li{
+    list-style: none;
+}
+
+.footer a{
+    text-decoration: none;
+    line-height: 35px;
+    color: #b2b2b2;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer p{
+    color: #b2b2b2;
+}
+.footer .footer-button-1{
+    width: 75%;
+    height: 60px;
+    background-color: red;
+    border: none;
+    color: #fff;
+}
+.footer .footer-button-2{
+    width: 75%;
+    height: 60px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}
+#footer-bottom{
+    background-color: #313232;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer-img{
+    margin-left: 30px;
+}
+@media screen and (max-width: 991px){
+
+    /* header */
+    header .top nav{
+        background-color: #313232;
+        height: 45px;
+        padding: 5 12px;
+        width: 100%;
+    }
+    header .top .info{
+        padding-top: 5px;
+    }
+    header .top a{
+        color: #ffffff;
+       
+        line-height: 36px;
+        text-decoration: none;
+        font-family:'Roboto', sans-serif ;
+       text-align: center;
+
+    }
+    header .middle nav .navbar-brand img{
+        bottom: 5px;
+        left: 0;
+        width: 140px;
+    }
+
+    header .middle nav .navbar-nav{
+        display: block;
+        width: fit-content;
+        justify-content: center;
+        background-color: #fff!important;
+        text-align: left;
+        padding: 1% 5% 0;
+    }
+  
+
+    header .middle nav .navbar-nav a{
+        font-size: 20px;
+    }
+
+    header .middle nav .navbar-nav span{
+        display: none;
+    }
+
+    header .middle nav a span{
+        display: inline!important;
+    }
+    header .bottom ul{
+        display: block!important;
+    }
+    header .bottom ul li{
+        padding: 5%;
+        width: 100% !important;
+        text-align: left;
+        border-bottom: 1px solid;
+        padding-top: 10px;
+    }
+    header .bottom ul li{
+        padding: 5%!important;
+    }
+    header .bottom ul li a{
+        margin: 0;
+    }
+    header .bottom ul li::before{
+        content: unset;
+    }
+    .slider-section .slider-content{
+       width: 100%;
+        position: relative;
+        top: 0;
+        transform: unset;
+        padding-top: 25%;
+        text-align: center;
+    }
+    .slider-section{
+        background-image: url(http://phpstack-470202-1621315.cloudwaysapps.com/images/bg-img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 160vh;
+    }
+    .slider-section .filter-area{
+        position: relative;
+        width: 100%;
+        transform: unset;
+        top: unset;
+        border-radius: 8px;
+        
+    }
+    .featured-item-section .shop .description p{
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    .slider-section .filter-area .filter-area-title{
+        border-radius: 8px;
+    }
+    .blog-section .p-img-2 {
+        background-color: red;
+        z-index: 1;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        margin: 0;
+        color: #fff;
+        transform: translate(-50% , -65%);
+        padding: 5px 7px;
+    }
+}
